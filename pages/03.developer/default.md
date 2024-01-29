@@ -11,13 +11,14 @@
 
 ## Registro de Tiempo
 - El desarrollador debe mantener actualizado su parte de tiempo al menos una vez al día o una vez por tarea (lo que ocurra primero).
-![image](https://github.com/vladimir1284/fleet-wiki/blob/main/pages/03.developer/developer_timesheet.jpeg)
+
+
 - La correcta actualización del parte de tiempo es crucial, ya que se utiliza para la generación de la nómina mensual.
-![image](https://github.com/vladimir1284/fleet-wiki/blob/main/pages/03.developer/register_timesheet.jpeg)
+![developer_timesheet](https://github.com/vladimir1284/fleet-wiki/assets/2799172/f9758241-d22a-4b7b-abb5-5fa954c071c1)
+
 
 ## Fondo de Tiempo
 - Cada tarea tiene asignado un fondo de tiempo, y si el desarrollador necesita más tiempo, no hay problema.
-![developer_timesheet](https://github.com/vladimir1284/fleet-wiki/assets/2799172/f9758241-d22a-4b7b-abb5-5fa954c071c1)
 
 ## Fecha de Entrega
 - Cada tarea tiene una fecha de entrega. En caso de no poder cumplirla en tiempo, el desarrollador debe notificarlo lo antes posible para tomar las acciones necesarias.
