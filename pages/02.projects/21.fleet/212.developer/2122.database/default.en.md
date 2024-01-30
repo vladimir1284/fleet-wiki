@@ -1,3 +1,5 @@
+# Database documentation
+
 ## PostgreSQL: A Powerful Relational Database Management System
 
 In our project, we have chosen PostgreSQL as the relational database management system (RDBMS) for its robustness, extensibility, and support for advanced features. PostgreSQL is known for its adherence to SQL standards, ACID compliance, and scalability, making it an ideal choice for our [SaaS](https://en.wikipedia.org/wiki/Software_as_a_service) product.
