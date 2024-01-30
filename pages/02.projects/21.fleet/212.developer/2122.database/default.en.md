@@ -6,7 +6,7 @@ In our project, we have chosen PostgreSQL as the relational database management 
 
 To ensure proper data isolation in our SaaS product, we will implement Multi-Tenant Data Isolation using PostgreSQL Row Level Security (RLS). This approach allows us to control access to rows in database tables based on the characteristics of the user executing a query. 
 
-!!! For a more in-depth understanding of this implementation, we recommend reading [Multi-Tenant Data Isolation with PostgreSQL Row Level Security on AWS Blog](https://aws.amazon.com/es/blogs/database/multi-tenant-data-isolation-with-postgresql-row-level-security/).
+!!! For a more in-depth understanding of this implementation, we recommend reading [**Multi-Tenant Data Isolation with PostgreSQL Row Level Security on AWS** Blog](https://aws.amazon.com/es/blogs/database/multi-tenant-data-isolation-with-postgresql-row-level-security/).
 
 ## Prisma: An Advanced Database Access Toolkit
 
@@ -49,6 +49,6 @@ In our project, we utilize Superforms for efficient form validation. Superforms 
 
 ## Model Documentation
 
-! Developers are responsible for documenting the models in the database. 
+! Developers are responsible for documenting the models added by them into the database. 
 
 We encourage the use of visual diagrams illustrating the relationships and structures of the database tables they create. This documentation ensures clarity and understanding of the database schema, facilitating collaboration and maintenance.

@@ -1,5 +1,7 @@
 # Project credentials
-The following credentials are needed to work the project. <mark>The developer that uses new credentials in its work must update this section and alert the rest of the team<mark>.
+The following credentials are needed to work the project. 
+
+! The developer that uses new credentials in its work must update this section and alert the rest of the team.
 
 ## Authentication
 AUTH_SECRET
