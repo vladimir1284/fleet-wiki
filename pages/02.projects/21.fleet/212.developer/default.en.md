@@ -18,6 +18,9 @@ Explore the database schema that underlies Fleet Manager. This section provides 
 ### Data Migration
 Understand the process of data migration, including scripts and procedures for upgrading the database schema as the application evolves. Developers can follow guidelines to ensure seamless transitions during software updates.
 
+## [Credentials](./credentials/)
+The credentials needed to work the project are documented in this section. <mark>The developer that uses new credentials in its work must update this section and alert the rest of the team<mark>.
+
 ## API
 
 ### RESTful API
