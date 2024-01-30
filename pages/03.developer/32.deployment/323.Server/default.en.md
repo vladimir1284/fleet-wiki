@@ -19,6 +19,8 @@ We make our first migration and seeding with the following command:
 
 The seeding is vital for having an initial **admin** company and a user of this company in order to be able to login into the site. Then, that user can create companies and other users.
 
+`npx prisma db seed`
+
 ## Node.js Server
 [PM2](https://pm2.keymetrics.io/docs/usage/quick-start/) serves the application using Node.js. The configuration file is:
 
