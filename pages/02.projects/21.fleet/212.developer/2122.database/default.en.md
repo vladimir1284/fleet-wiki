@@ -47,4 +47,6 @@ In our project, we utilize Superforms for efficient form validation. Superforms 
 
 ## Model Documentation
 
-Developers are responsible for documenting the models in the database. We encourage the use of visual diagrams illustrating the relationships and structures of the database tables they create. This documentation ensures clarity and understanding of the database schema, facilitating collaboration and maintenance.
+! Developers are responsible for documenting the models in the database. 
+
+We encourage the use of visual diagrams illustrating the relationships and structures of the database tables they create. This documentation ensures clarity and understanding of the database schema, facilitating collaboration and maintenance.
