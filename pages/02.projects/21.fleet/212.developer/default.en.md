@@ -39,12 +39,12 @@ Understand the frontend architecture, including the organization of components, 
 
 ## UI Components
 
-### Component Library
+### [Component Library](./components/)
 Explore the reusable UI components that contribute to the consistent and user-friendly interface of Fleet Manager. The documentation provides guidance on incorporating and customizing these components to maintain a cohesive design language.
 
 ## Forms
 
-### Form Handling
+### [Form Handling](./forms/)
 Learn about form design and handling within Fleet Manager. This section covers the implementation of various forms used for data input, validation, and submission. Developers can find examples and best practices for creating dynamic and responsive forms.
 
 We encourage developers to explore the detailed documentation provided in each section to gain a comprehensive understanding of the Fleet Manager software architecture and contribute effectively to its ongoing development.
