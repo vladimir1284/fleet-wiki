@@ -2,7 +2,7 @@
 
 Welcome to the Developer Documentation for our Fleet Manager software. This section provides in-depth details on the various aspects of the software development, ensuring that developers have the necessary information to contribute, extend, and maintain the system effectively.
 
-## Authentication
+## [Authentication](./auth/)
 
 ### Overview
 The authentication system is a crucial component of Fleet Manager, ensuring secure access to the application. Developers can find detailed information on user authentication methods, authorization processes, and best practices for enhancing the security of user accounts.
@@ -10,7 +10,7 @@ The authentication system is a crucial component of Fleet Manager, ensuring secu
 ### Implementation Details
 Learn about the authentication mechanisms in place, including multi-factor authentication options and integration with third-party identity providers. The documentation covers both backend and frontend aspects of the authentication system.
 
-## Database
+## [Database](./database/)
 
 ### Database Schema
 Explore the database schema that underlies Fleet Manager. This section provides a comprehensive overview of the tables, relationships, and data models used to store and manage critical information related to vehicles, drivers, routes, and more.
