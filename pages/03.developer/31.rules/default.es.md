@@ -35,6 +35,7 @@ media_order: 'parte_horas.jpeg,registro.jpeg'
 - El código desarrollado debe ajustarse al estilo del proyecto en curso.
 - Se debe mantener la documentación del código a través del repositorio en [GitHub Wiki](https://github.com/vladimir1284/fleet-towit).
 - La documentación estará publicada en el siguiente enlace: [LADETEC Wiki](http://wiki.ladetec.com/).
+- El desarrollador debe solicitar las [credenciales](../../projects/fleet/developer/credentials/) necesarias para trabajar con el proyeto.
 
 ## Pruebas
 - El desarrollador debe elaborar pruebas para validar el correcto funcionamiento de los módulos desarrollados.
