@@ -4,11 +4,13 @@ In our project, we have chosen PostgreSQL as the relational database management 
 
 ### Multi-Tenant Data Isolation with PostgreSQL Row Level Security
 
-To ensure proper data isolation in our SaaS product, we will implement Multi-Tenant Data Isolation using PostgreSQL Row Level Security (RLS). This approach allows us to control access to rows in database tables based on the characteristics of the user executing a query. For a more in-depth understanding of this implementation, we recommend reading [Multi-Tenant Data Isolation with PostgreSQL Row Level Security on AWS Blog](https://aws.amazon.com/es/blogs/database/multi-tenant-data-isolation-with-postgresql-row-level-security/).
+To ensure proper data isolation in our SaaS product, we will implement Multi-Tenant Data Isolation using PostgreSQL Row Level Security (RLS). This approach allows us to control access to rows in database tables based on the characteristics of the user executing a query. 
+
+!!! For a more in-depth understanding of this implementation, we recommend reading [Multi-Tenant Data Isolation with PostgreSQL Row Level Security on AWS Blog](https://aws.amazon.com/es/blogs/database/multi-tenant-data-isolation-with-postgresql-row-level-security/).
 
 ## Prisma: An Advanced Database Access Toolkit
 
-Prisma serves as our Object-Relational Mapping (ORM) tool, simplifying database interactions and providing a type-safe and auto-generated query API. Its versatility and ease of use make it an excellent choice for our project.
+[Prisma](https://www.prisma.io/) serves as our Object-Relational Mapping (ORM) tool, simplifying database interactions and providing a type-safe and auto-generated query API. Its versatility and ease of use make it an excellent choice for our project.
 
 ### Integrating Prisma Client with PostgreSQL Row Level Security
 
