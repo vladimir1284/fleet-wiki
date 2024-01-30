@@ -1,0 +1,14 @@
+version: '1.2'
+timestamp: 1706489539
+count: 2
+index:
+  luis:
+    storage_key: luis
+    storage_timestamp: 1706489539
+    key: luis
+    email: luis.ulloa75360@gmail.com
+  vladimir:
+    storage_key: vladimir
+    storage_timestamp: 1706412131
+    key: vladimir
+    email: vladimir@ladetec.com
