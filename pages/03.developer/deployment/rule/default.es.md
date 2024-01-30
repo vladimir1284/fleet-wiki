@@ -1,5 +1,5 @@
 ---
-media_order: 'developer_timesheet.jpeg,register.jpeg'
+media_order: 'parte_horas.jpeg,registro.jpeg'
 ---
 
 # Condiciones de Contrato para Desarrolladores de Software en LADETEC
@@ -15,11 +15,9 @@ media_order: 'developer_timesheet.jpeg,register.jpeg'
 
 ## Registro de Tiempo
 - El desarrollador debe mantener actualizado su parte de tiempo al menos una vez al día o una vez por tarea (lo que ocurra primero).
-![register](register.jpeg "register")
-
+![registro](registro.jpeg "registro")
 - La correcta actualización del parte de tiempo es crucial, ya que se utiliza para la generación de la nómina mensual.
-![developer_timesheet](https://github.com/vladimir1284/fleet-wiki/assets/2799172/f9758241-d22a-4b7b-abb5-5fa954c071c1)
-
+![parte_horas](parte_horas.jpeg "parte_horas")
 
 ## Fondo de Tiempo
 - Cada tarea tiene asignado un fondo de tiempo, y si el desarrollador necesita más tiempo, no hay problema.
