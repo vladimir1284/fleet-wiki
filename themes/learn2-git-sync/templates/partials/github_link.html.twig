@@ -47,7 +47,6 @@
       {% if theme_config.github.icon %}
         {% set git_repo_link_icon = theme_config.github.icon %}
       {% endif %}
-      {% include 'partials/langswitcher.html.twig' %}
       <a class="github-link" href="{{ git_repo_edit_link_url }} " title="{{ 'THEME_LEARN2_GIT_EDIT_THIS_PAGE'|t }}" target="_blank">
       <i class="fa fa-{{ git_repo_link_icon }}"></i>
       {{ 'THEME_LEARN2_GIT_EDIT_THIS_PAGE'|t }}</a>
