@@ -5,3 +5,5 @@ In the [database](./database) section we describe the postgres infrastructure of
 In the [storage](./Storage) section, we describe the file storage system available.
 
 In the [server](./Server) section, the process of updating and building the code on the cloud server is described.
+
+In the [KillBill](./killbill/) section, the kill bill installation and setup is described.
