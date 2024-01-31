@@ -54,3 +54,6 @@ In our project, we utilize Superforms for efficient form validation. Superforms 
 ! Developers are responsible for documenting the models added by them into the database. 
 
 We encourage the use of visual diagrams illustrating the relationships and structures of the database tables they create. This documentation ensures clarity and understanding of the database schema, facilitating collaboration and maintenance.
+
+Take for instance the following diagram:
+<iframe width="560" height="315" src='https://dbdiagram.io/e/65b9ca78ac844320ae17e3b8/65b9ca8dac844320ae17e503'> </iframe>
