@@ -4,7 +4,7 @@
 
 The following compose file is [available](https://github.com/killbill/killbill-cloud/blob/master/docker/compose/docker-compose.kb.yml) for running the latest Kill Bill stack.
 
-! It is important to add the line `- SECRET_KEY_BASE=[RADOM_SECRET]` as it is in the following dockerfile for **kaui** to work properly.
+! It is important to add the line `- SECRET_KEY_BASE=[RADOM_SECRET]` as it is in the following dockerfile for **kaui** to work properly. We also had to add the **links** section to **killbill** and **kaui** containers.
 
 ```yml
 # KB stack
@@ -25,6 +25,8 @@ services:
       - KILLBILL_METRICS_INFLUXDB=false
       - KILLBILL_METRICS_INFLUXDB_HOST=host.docker.internal
       - KILLBILL_METRICS_INFLUXDB_PORT=8086
+    links:
+      - db 
   kaui:
     image: killbill/kaui:latest
     ports:
@@ -37,6 +39,9 @@ services:
       - KAUI_KILLBILL_API_KEY=[API_KEY]
       - KAUI_KILLBILL_API_SECRET=[API_SECRET]
       - SECRET_KEY_BASE=[RADOM_SECRET]
+    links:
+      - db 
+      - killbill 
   db:
     image: killbill/mariadb:0.24
     volumes:
