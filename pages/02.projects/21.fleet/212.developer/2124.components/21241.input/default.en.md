@@ -1,40 +1,91 @@
-# Svelte Mail Input Component Documentation
+# EmailInputComponent
 
-## Overview
+### File Location: 
+src/lib/components/inputs/EmailInputComponent.svelte
 
-This Svelte component is designed to be used as a part of a larger superform, providing a customizable email input field. It includes a label, input field, and error message display. The component utilizes Svelte and Tailwind CSS for styling and functionality.
+### Description: 
+The EmailInputComponent is a reusable Svelte component that renders an email input field with floating label functionality. It uses the FloatingLabelInput component from the flowbite-svelte library and includes an envelope icon from flowbite-svelte-icons.
 
-## Usage
+### Usage
+To use the EmailInputComponent, import it into a parent Svelte component and include it within the markup. Pass the necessary props to customize the behavior and appearance of the input field.
 
 ```html
-<Label class="space-y-2">
-    <span>Email</span>
-    <Input
-        class="focus:ring-0 border-blue-500 focus:outline-0 focus:ring-2 focus:ring-blue-500"
-        type="email"
-        name="email"
-        placeholder="Insert your email"
-        required
-        aria-invalid={$errors.email ? 'true' : undefined}
-        bind:value={$form.email}
-        {...$constraints.email}
-    >
-        <EnvelopeSolid slot="left" class="w-4 h-4" />
-    </Input>
-</Label>
-{#if $errors.email}<span class="text-red-600">{$errors.email}</span>{/if}
+<script>
+  import EmailInputComponent from '$lib/components/inputs/EmailInputComponent.svelte';
+  let form = { email: '' };
+  let constraints = { email: { required: true, pattern: /^[^\s@]+@[^\s@]+\.[^\s@]+$/ } };
+  let errors = {};
+</script>
+
+<EmailInputComponent
+  placeholder="Enter your email"
+  constraints={constraints}
+  errors={errors}
+  bind:form={form}
+/>
 ```
 
 ### Props
+- **placeholder**: A string that sets the placeholder text for the email input field.
+- **constraints**: An object containing validation constraints for the email input field.
+- **errors**: An object containing error messages related to the email input field.
+- **form**: An object representing the form data, including the email value.
 
-- **class**: CSS classes for styling.
-- **type**: Specifies the type of input (email in this case).
-- **name**: Name of the input field.
-- **placeholder**: Placeholder text for the input field.
-- **required**: Indicates if the input is required.
-- **aria-invalid**: ARIA attribute to convey error state to screen readers.
-- **bind:value**: Binds the value of the input to a variable.
-- **{...$constraints.email}**: Additional constraints for validation.
+### Styling: 
+The component uses Tailwind CSS classes for styling. The FloatingLabelInput component is styled with the outlined style, and the envelope icon is given a width and height of 6 units each.
+
+### Accessibility:
+The component includes an aria-invalid attribute that is conditionally set based on whether there are errors associated with the input field. This helps screen readers identify invalid fields.
+
+### Error Handling:
+If there are errors associated with the input field, they are displayed below the input in red text.
+
+### Dependencies:
+- **flowbite-svelte**: Provides the FloatingLabelInput component.
+- **flowbite-svelte-icons**: Provides the EnvelopeSolid icon component.
+
+# NameInputComponent
+
+### File Location: 
+src/lib/components/inputs/NameInputComponent.svelte
+
+### Description: 
+The NameInputComponent is a reusable input component for capturing names within the Fleet Towit application. It utilizes the FloatingLabelInput component from the Flowbite Svelte library to provide a floating label effect on the input field.
+
+### Usage: 
+To use the NameInputComponent, import it into the parent component and include it in the markup. Bind the necessary properties to control the input's behavior and appearance.
+
+```html
+<script lang="ts">
+  import NameInputComponent from '$lib/components/inputs/NameInputComponent.svelte';
+  // ... other imports and setup
+</script>
+
+<NameInputComponent
+  placeholder="Enter your name"
+  constraints={constraints}
+  errors={errors}
+  bind:form={form}
+/>
+```
+
+### Props:
+- **placeholder**: A string that sets the placeholder text for the input field.
+- **constraints**: An object containing validation constraints for the input field.
+- **errors**: An object containing error messages related to the input field.
+- **form**: An object representing the form data, typically managed by a form handling library.
+
+### Styling: 
+The component uses Tailwind CSS classes for styling. The FloatingLabelInput component is styled with the outlined style.
+
+### Accessibility:
+The component includes an aria-invalid attribute that is conditionally set based on whether there are errors associated with the input field. This helps screen readers identify invalid fields.
+
+### Error Handling:
+If there are errors associated with the input field, they are displayed below the input in red text.
+
+### Dependencies:
+- **flowbite-svelte**: Provides the FloatingLabelInput component.
 
 ## Unit Testing
 
