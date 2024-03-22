@@ -2,7 +2,7 @@
 
 The **CustomForm** system empowers users with the ability to create personalized forms tailored to specific needs within a multi-tenant environment. This section delves into the intricacies of three interconnected models: **CustomForm**, **CustomField**, and **CustomFieldResponse**. These models collectively facilitate the dynamic creation, customization, and comprehensive tracking of forms, custom fields, and user responses. Discover how this structured system provides flexibility and versatility for effective form management and user engagement within the broader context of tenant-specific requirements.
 
-<iframe width="560" height="315" src='https://dbdiagram.io/e/65fdc6ecae072629cebcc19a/65fdc72fae072629cebcc5da'> </iframe>
+<iframe width="100%" height="315" src='https://dbdiagram.io/e/65fdc6ecae072629cebcc19a/65fdc72fae072629cebcc5da'> </iframe>
 
 ## CustomForm Model
 
