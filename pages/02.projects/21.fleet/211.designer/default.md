@@ -19,6 +19,18 @@ La información que debe mostrarse allí, al menos inicialmente es la [del gesto
 ![Alt text](./dashboard.jpeg)
 Hay que considerar que de lo que se muestra actualmente en el gestor, solo las que se marcan en la siguiente figura importan.
 
+### Admin dashboard
+
+Desde el punto de vista del tenant admin, esta vista debe mostrar información relativa a los tenants como:
+
+- Listados de tenants activos
+- Pagos pendientes por parte de los tenants a la plataforma
+- Datos del estado de los servidores:
+  - Espacio en disco
+  - Base de datos
+  - RAM y CPU
+- Consumo de recurso por tenants
+
 ## People
 ### Clients
 Esta es la[ vista actual](http://fleet.crabdance.com/clients). 
@@ -66,9 +78,13 @@ Además se puede crear:
 
 ![Alt text](./create_tenat.png)
 
-y editar:
+editar:
 
 ![Alt text](./update_tenant.png)
+
+y puede listarse a los usuarios de cual quier  tenant:
+
+![Alt text](./list_tenant_users.png)
 
 En este se puede asignar un dueño al tenant. El dueño tiene privilegio para crear nuevos usuarios asignados a su tenant.
 
