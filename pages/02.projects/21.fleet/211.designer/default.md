@@ -93,4 +93,66 @@ Esto debería hacerse como en odoo:
 
 ![Alt text](./tenants_odoo.png)
 
+## Vehículos
+Acá mostramos las vistas de whiparound que son las que más se parecen a lo que queremos lograr.
 
+Para crear un vehículos vamos a tratar de conseguir primero el VIN pues de allí pueden extraerse muchos datos para el formulario:
+
+ ![alt text](assets/VIN_input.png)
+
+ Al final, ya sea que se capturen datos a partir del VIN o no, pasamos al formulario:
+
+![alt text](assets/data_taken_from_VIN.png) 
+
+Los detalles del vehículo se muestran así:
+
+![alt text](assets/detail.png)
+
+Acá conviene también incorporar una galería de imágenes como en un producto de una tienda. Como estos artículos se rentan, es importante contar con varias imágenes y poderlas compartir. 
+
+En el [gestor](https://playground.towithouston.com/erp/rent/detail-trailer/1) hacemos este trabajo con las imágenes. 
+
+Desde la vista de detalles del vehículo también debemos tener acceso a:
+
+- Ver detalles del contrato activo
+- Crear un contrato de renta si está disponible
+- Dar seguimiento a partir de un [rastreador](#rastreadores) GPS-
+
+![alt text](assets/forms.png) 
+
+![alt text](assets/list.png)
+
+### Rastreadores
+
+Esta es la[ vista actual](http://fleet.crabdance.com/trackers).  
+
+
+Además se puede crear:
+
+![Alt text](./create_tenat.png)
+
+editar:
+
+![Alt text](./update_tenant.png)
+
+## Inspecciones
+
+### Formularios
+
+### Inspecciones realizadas
+
+## Contratos
+
+### Planes de renta
+
+### Lista de contratos
+
+### Notas
+
+### Facturas
+
+### Pagos
+
+## Gastos
+
+## Recordatorios
