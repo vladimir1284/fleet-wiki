@@ -122,7 +122,7 @@ Desde la vista de detalles del vehículo también debemos tener acceso a:
 - Crear un contrato de renta si está disponible
 - Dar seguimiento a partir de un [rastreador](#rastreadores) GPS
 - Ver los documentos del vehículo
-- Seleccionar los [formularios de inspección] (#Formularios) que aplican al vehículo:
+- Seleccionar los [formularios de inspección](#formularios) que aplican al vehículo:
 ![alt text](assets/forms.png) 
 
 
