@@ -55,5 +55,5 @@ In our project, we utilize Superforms for efficient form validation. Superforms 
 
 We encourage the use of visual diagrams illustrating the relationships and structures of the database tables they create. This documentation ensures clarity and understanding of the database schema, facilitating collaboration and maintenance.
 
-Take for instance the following diagram:
+We have modified our `prisma.schema` as described [here](https://notiz.dev/blog/prisma-dbml-generator) to export into the `schema.dbml` file to be used in [dbdiagram.io](https://dbdiagram.io/home) for visualization and the to be [embedded](https://dbdiagram.io/docs/embedding) in this wiki as shown below:
 <iframe width="100%" height="640" src='https://dbdiagram.io/e/65b9ca78ac844320ae17e3b8/65b9ca8dac844320ae17e503'> </iframe>
