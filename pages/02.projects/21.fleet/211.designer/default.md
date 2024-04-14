@@ -96,6 +96,8 @@ Esto debería hacerse como en odoo:
 ## Vehículos
 Acá mostramos las vistas de whiparound que son las que más se parecen a lo que queremos lograr.
 
+![alt text](assets/list.png)
+
 Para crear un vehículos vamos a tratar de conseguir primero el VIN pues de allí pueden extraerse muchos datos para el formulario:
 
  ![alt text](assets/VIN_input.png)
@@ -112,15 +114,18 @@ Acá conviene también incorporar una galería de imágenes como en un producto 
 
 En el [gestor](https://playground.towithouston.com/erp/rent/detail-trailer/1) hacemos este trabajo con las imágenes. 
 
+A diferencia de lo que se muestra en esta vista, no vamos a dar la opción de editar los datos del vehículo en esta  vista. 
+
 Desde la vista de detalles del vehículo también debemos tener acceso a:
 
 - Ver detalles del contrato activo
 - Crear un contrato de renta si está disponible
-- Dar seguimiento a partir de un [rastreador](#rastreadores) GPS-
-
+- Dar seguimiento a partir de un [rastreador](#rastreadores) GPS
+- Ver los documentos del vehículo
+- Seleccionar los [formularios de inspección] (#Formularios) que aplican al vehículo:
 ![alt text](assets/forms.png) 
 
-![alt text](assets/list.png)
+
 
 ### Rastreadores
 
@@ -152,6 +157,21 @@ editar:
 ### Facturas
 
 ### Pagos
+
+### Línea de tiempo
+
+La línea de tiempo debe mostrar el histórico de lo que ocurre en elemento actual. En los contratos se trata de:
+
+- Estado del contrato
+- [Facturas](#facturas)
+- [Pagos](#pagos)
+- [Notas](#notas)
+
+Esta información aparece en orden cronológico inverso. En cada una debemos mostrar el usuario responsable de la acción si lo hubiere (como en odoo):
+
+![alt text](timeline.png)
+
+Cada tipo de elemento va en un color y/o con un ícono diferente. El usuario tiene arriba un filtro para quedarse con un solo tipo de elemento (por ejemplo, si quisiera ver solamente los pagos).
 
 ## Gastos
 
