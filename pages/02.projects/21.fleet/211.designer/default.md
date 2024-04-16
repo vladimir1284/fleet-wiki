@@ -149,13 +149,9 @@ Este módulos está inspirado en el módulo de inspecciones de whiparound. Allí
 Los formularios de inspección están basados en tarjetas, dentro de las cuales se agregan los campos. Esta es la[ vista actual](http://fleet.crabdance.com/inspections/forms).  
 
 
-Además se puede crear:
+Además se puede crear/editar:
 
 ![Alt text](./create_form.png)
-
-editar:
-
-![Alt text](./update_tenant.png)
 
 Los campos también son editable:
 
@@ -175,6 +171,20 @@ previsualizar:
 ![Alt text](./preview_inspection.png)
 
 ## Contratos
+
+Esta es la[ vista actual](http://fleet.crabdance.com/contracts). El contrato enlaza a un [cliente](#clients) con un [vehículo](#vehículos) y un [plan de renta](#planes-de-renta).  
+
+
+Además se puede crear:
+
+![Alt text](./create_contract.png)
+
+previsualizar:
+
+![Alt text](./detail_contract.png)
+
+Esta vista debería ser la vista más importante de la plataforma. Ahora se muestra como un modal sobre la lista de contratos, pero ya lo estamos cambiando para pantalla completa y en su propia ruta. Puede verse una primera versión de la línea de tiempo en la parte derecha. Hay que planear muy bien la información que se va a mostrar acá aprovechando [la experiencia del gestor](https://playground.towithouston.com/erp/rent/client_detail/466/).
+
 
 ### Planes de renta
 
