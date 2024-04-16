@@ -3,7 +3,9 @@
     "ignorePaths": [],
     "dictionaryDefinitions": [],
     "dictionaries": [],
-    "words": [],
+    "words": [
+        "previsualizar"
+    ],
     "ignoreWords": [],
     "import": [],
     "language": "en,es"

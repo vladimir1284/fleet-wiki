@@ -142,9 +142,37 @@ editar:
 
 ## Inspecciones
 
+Este módulos está inspirado en el módulo de inspecciones de whiparound. Allí al parecer se llenan solo en la vista de celular las inspecciones. Acá por el contrario se pueden llenar en la vista de PC también.
+
 ### Formularios
 
+Los formularios de inspección están basados en tarjetas, dentro de las cuales se agregan los campos. Esta es la[ vista actual](http://fleet.crabdance.com/inspections/forms).  
+
+
+Además se puede crear:
+
+![Alt text](./create_form.png)
+
+editar:
+
+![Alt text](./update_tenant.png)
+
+Los campos también son editable:
+
+![Alt text](./update_field.png)
+
 ### Inspecciones realizadas
+
+Esta es la[ vista actual](http://fleet.crabdance.com/inspections).  
+
+
+Además se puede crear:
+
+![Alt text](./fill_inspection.png)
+
+previsualizar:
+
+![Alt text](./preview_inspection.png)
 
 ## Contratos
 
@@ -158,6 +186,21 @@ editar:
 
 ### Pagos
 
+### Tolls
+
+Los tolls hacen referencia a los pagos de peaje que se cargan al duelo del vehículo pero que deben ser pagados por el cliente que lo tiene rentado. Por eso, una vez que llega una notificación de este tipo de cargos, se registra manualmente en la plataforma para ser cobrado al cliente. Esta es la[ vista actual](http://fleet.crabdance.com/tolls).  
+
+
+Además se puede crear:
+
+![Alt text](./create_toll.png)
+
+editar:
+
+![Alt text](./update_toll.png)
+
+Los tolls deben poder verse en la vista de contrato.
+
 ### Línea de tiempo
 
 La línea de tiempo debe mostrar el histórico de lo que ocurre en elemento actual. En los contratos se trata de:
@@ -166,6 +209,7 @@ La línea de tiempo debe mostrar el histórico de lo que ocurre en elemento actu
 - [Facturas](#facturas)
 - [Pagos](#pagos)
 - [Notas](#notas)
+- [Tolls](#tolls)
 
 Esta información aparece en orden cronológico inverso. En cada una debemos mostrar el usuario responsable de la acción si lo hubiere (como en odoo):
 
