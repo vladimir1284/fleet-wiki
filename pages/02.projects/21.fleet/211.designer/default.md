@@ -174,7 +174,6 @@ previsualizar:
 
 Esta es la[ vista actual](http://fleet.crabdance.com/contracts). El contrato enlaza a un [cliente](#clients) con un [vehículo](#vehículos) y un [plan de renta](#planes-de-renta).  
 
-
 Además se puede crear:
 
 ![Alt text](./create_contract.png)
@@ -188,9 +187,29 @@ Esta vista debería ser la vista más importante de la plataforma. Ahora se mues
 
 ### Planes de renta
 
-### Lista de contratos
+Esta es la[ vista actual](http://fleet.crabdance.com/plans). Los planes de renta guardan el monto y la periodicidad de los pagos.
+
+
+Además se puede crear:
+
+![Alt text](./create_plan.png)
+
+y modificar:
+
+![Alt text](./update_plan.png)
 
 ### Notas
+
+Se pueden ver todas las notas de un contrato desde la lista de contratos:
+
+![Alt text](./notes.png)
+
+
+Además se puede crear desde allí una nueva nota:
+
+![Alt text](./create_note.png)
+
+
 
 ### Facturas
 
