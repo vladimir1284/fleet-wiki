@@ -1,5 +1,5 @@
 # Routes Folder Structure
-```
+```graphql
 routes
 ├───(authenticated)
 │   ├───admin
@@ -18,7 +18,7 @@ routes
 ```
 
 ## Documentation for the +page.server.ts file
-In this file, any direct handling of the prism should be avoided. Ideally, only the validation scheme is started and sent to the +page.svelte as data.
+In this file, any direct handling of prisma should be avoided. Ideally, only the validation scheme is started and sent to the +page.svelte as data.
 
 ### Imports
 
@@ -41,6 +41,7 @@ In the case of more than one form, the same structure must be made but declaring
 
 
 ## Documentation for the +page.svelte file
+In this file, any attemp of use prisma will cause an error.
 
 ### Imports
 
@@ -54,20 +55,7 @@ In the case of more than one form, the same structure must be made but declaring
 ### Reactive Declarations
 
 - **data**: A prop of type `PageData` passed to the component.
-- **selectedId, selectedClient**: Variables to store the ID and details of the selected client for editing or deletion.
-- **message**: A string to store the alert message.
-- **currentTenant**: Retrieved from the context to get the current tenant's information.
 
 ### Lifecycle Hooks
 
-- **onMount**: Used to load client data when the component mounts.
-
-### Event Handlers
-
-- **loadData**: An asynchronous function that fetches client data from the API and updates the `clients` array.
-
-### UI Components
-
-- **Modal**: Used to display forms for creating, editing, and deleting clients.
-- **Table**: Displays the list of clients with options to edit or delete each client.
-- **Alert**: Shows alert m
+- **onMount**: Used to load data from the api when the component mounts.
