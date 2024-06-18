@@ -26,7 +26,7 @@ Whether you're working on a specific project or looking for general development 
 
 Feel free to contribute to these guidelines and help shape the development culture within our organization.
 
-## How to Contribute
+## [How to Contribute](../projects/fleet/developer/)
 
 This wiki is a collaborative effort, and we encourage all developers to contribute by updating documentation, sharing insights, and improving guidelines. If you have suggestions or find issues, please open a pull request or create an issue in the respective project's repository.
 

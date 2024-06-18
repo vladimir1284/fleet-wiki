@@ -30,7 +30,10 @@ Fleet Manager exposes a RESTful API to facilitate seamless integration with othe
 ### Webhooks
 Explore the webhook system for real-time updates and notifications. Developers can integrate Fleet Manager with external services by configuring webhooks for specific events within the application.
 
-## [Project Structure](./project/)
+## Project Structure
+
+### [Action Architecture](./actions/)
+The action is a file that is used strictly to interact with prisma. Its usefulness is to avoid direct work with prism in other parts of the project, thus preventing actions that should only occur on the server side from reaching the client, causing a service crash.
 
 ### [Backend Architecture](./project/api/)
 Get acquainted with the overall structure of the backend codebase. This includes the organization of controllers, models, middleware, and other components. The documentation outlines coding standards and conventions to maintain consistency across the project.
@@ -49,3 +52,7 @@ Explore the reusable UI components that contribute to the consistent and user-fr
 Learn about form design and handling within Fleet Manager. This section covers the implementation of various forms used for data input, validation, and submission. Developers can find examples and best practices for creating dynamic and responsive forms.
 
 We encourage developers to explore the detailed documentation provided in each section to gain a comprehensive understanding of the Fleet Manager software architecture and contribute effectively to its ongoing development.
+
+
+## [Common Errors](./errors/)
+Learn about the most common errors on sveltekit
